@@ -1,0 +1,59 @@
+
+h1 {
+        font: bold calc(.025 * (100vw)) 'Arial', sans-serif;
+        align: left
+    }
+body {background-color:rgba(0, 0, 0, 0.086)}
+
+image
+#rcorners1 {
+    border-radius: 25px;
+    background: #353e28;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  #rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+/* USEFUL:
+margin : the space around the element; values can be set in em, px, or %; example margin: 10px; (REFERENCE LINK)
+padding : the space between the element's content and its outer edges (LINK)
+border-bottom/border-left/etc : set a border on just one side of the element; example border-bottom: 4px dashed green (LINK)
+font-size : how big the letters are (LINK)
+opacity : how much you can see through it; 1 == it's opaque, 0 == it's invisible; example opacity: 0.5; (it's halfway see-through) (LINK)
+WACKY:
+position: relative; + top or left : moves the element the specified distance from the top or left of where it's supposed to be; example position: relative; top: -24px; (LINK)
+box-shadow : adds a shadow around the edges of the element; see reference link for possible values (LINK)
+transform : wiggles and stretches things; this one gets silly in a hurry; try transform: rotate(-34deg);or transform: skew(30deg, 20deg); (LINK) */
+
+/* Directions
+Now that you are set up to work on your project, it is time to work on the design. Under the css directory, open styles.css. This is the file you will primarily be working on.
+
+First, add the external CSS to your index.html file. Recall the proper way to reference an external CSS file that is in another directory.
+After you've completed the above step, use the CSS selectors and properties we learned in this lesson to style your project.
+Here are some ideas to get you started:
+Add a background color or image to your portfolio.
+Make your images more aesthetically appealing by giving them a border radius.
+Center certain parts of your content according to your liking.
+Add images to the images directory, reference them in your HTML, and give them a border color.
+Change the font of parts or all of your page.
+Give your page a new cursor.
+It is recommended that you use the CSS documentation.
+
+Don't forget that, for CSS to know which elements to style, you need to add the corresponding selector value to the class attribute of an HTML element. */
